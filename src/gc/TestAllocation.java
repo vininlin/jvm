@@ -6,7 +6,7 @@ public class TestAllocation {
 
 	public static void main(String[] args) {
 		/**
-		 * VM 参数：-verbose:gc -Xms20m -Xmx20 -Xmn10m -XX:+PrintGCDetails -XX:SurvivorRation=8
+		 * VM 参数：-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8
 		 */
 		byte[] a,b,c,d;
 		a = new byte[2*_1MB];
