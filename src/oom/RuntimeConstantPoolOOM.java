@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * VM Args:-XX:PermSize=10M -XX:MaxPermSize=10m
+ * VM Args:-XX:PermSize=10M -XX:MaxPermSize=10m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=d:\jvmdump\constpoolOOM.bin
  * @author weining
  *
  */
